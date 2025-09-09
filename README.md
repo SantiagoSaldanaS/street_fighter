@@ -218,7 +218,7 @@ pip install -r requirements.txt
 
 ---
 ## Testing
-Load `test.py` from the repository with:
+Load `test.py` from the repository.
 
 Run:
 
