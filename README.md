@@ -10,6 +10,11 @@ _Windows Setup guide (English / Español)_
 
 This repository contains code and experiments for Reinforcement Learning agents applied to a Street Fighter environment. The project is designed to run with **Python 3.8.10** inside an isolated virtual environment to guarantee compatibility.
 
+
+
+<br>
+
+
 ---
 
 ## Prerequisites
