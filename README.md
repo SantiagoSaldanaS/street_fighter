@@ -63,7 +63,7 @@ Python 3.8.10
   
   ---
   
-  # Activate the virtual environment
+  #### Activate the virtual environment
   
   - **PowerShell**:
   
@@ -96,7 +96,7 @@ Python 3.8.10
   
   ---
   
-  # Verify interpreter
+  #### Verify interpreter
   1. **Python: Select Interpreter**.
   2. Select the interpreter that points to:
   ```
