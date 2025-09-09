@@ -12,9 +12,7 @@ This repository contains code and experiments for Reinforcement Learning agents 
 
 ---
 
-## English
-
-### Prerequisites
+## Prerequisites
 - Install **Python 3.8.10**: https://www.python.org/downloads/release/python-3810/
 - IMPORTANT: Select custom installation and add python to the PATH.
 - Verify installation with powershell:
@@ -30,7 +28,7 @@ Python 3.8.10
 
 ---
 
-### Create a virtual environment
+## Virtual environment
 
 Using a virtual environment is heavily recommended for this project. 
 
@@ -62,11 +60,11 @@ Using a virtual environment is heavily recommended for this project.
   python3.8 -m venv venv
   ```
   
-  ##### This creates a folder named `venv` containing the isolated environment.
+  #### This creates a folder named `venv` containing the isolated environment.
 
   <br>
 
-  #### Activate the virtual environment
+  ### Activate the virtual environment
 
   **PowerShell**:
 
@@ -106,7 +104,7 @@ Using a virtual environment is heavily recommended for this project.
 
   ---
 
-  #### Verify interpreter
+  ### Verify interpreter
 
   1. **Python: Select Interpreter**.  
   2. Select the interpreter that points to:
@@ -172,7 +170,7 @@ Using a virtual environment is heavily recommended for this project.
 
 
 
-### Install project dependencies
+## Install project dependencies
 With the virtual environment active, install the required packages:
 
 ```bash
@@ -193,7 +191,7 @@ pip install -r requirements.txt
 
 ---
 
-### 6) Run a test.py
+## Run test.py
 Load `test.py` from the repository with:
 
 Run:
@@ -201,192 +199,3 @@ Run:
 ```bash
 python test.py
 ```
-
-
-
----
-
-##  Español
-
-### Requisitos previos
-- Instala **Python 3.8.10**: https://www.python.org/downloads/release/python-3810/
-- Verifica la instalación:
-
-```bash
-python --version
-```
-
-Salida esperada:
-```
-Python 3.8.10
-```
-
----
-
-### 1) Crear un entorno virtual
-En la carpeta del proyecto ejecuta uno de los siguientes:
-
-- Con el **py launcher** (recomendado en Windows):
-
-```bash
-py -3.8 -m venv venv
-```
-
-- Si `python3.8` está en tu PATH:
-
-```bash
-python3.8 -m venv venv
-```
-
-Esto crea la carpeta `venv` con el entorno aislado.
-
----
-
-### 2) Activar el entorno virtual
-
-- **PowerShell**:
-
-```powershell
-.\venv\Scripts\Activate
-```
-
-⚠️ PowerShell puede bloquear la ejecución de scripts por defecto. Si obtienes un error sobre `ExecutionPolicy`, cambia a **CMD** (abajo) o ejecuta PowerShell como administrador y ejecuta:
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-- **CMD (Símbolo del sistema)**:
-
-```cmd
-venv\Scripts\activate
-```
-
-Al activarse verás el prompt con `(venv)`:
-```
-(venv) C:\Users\Usuario\project>
-```
-
-Para desactivar:
-
-```bash
-deactivate
-```
-
----
-
-### 3) Verificar intérprete en VS Code
-1. Presiona `Ctrl + Shift + P` → **Python: Select Interpreter**.
-2. Selecciona el intérprete que apunte a:
-```
-...\venv\Scripts\python.exe
-```
-
-Script rápido para confirmar el intérprete:
-
-```python
-import sys
-print("Python ejecutándose desde:", sys.executable)
-```
-
-Salida correcta:
-```
-C:\Users\Usuario\Desktop\Coding\street_fighter\venv\Scripts\python.exe
-```
-Si muestra una ruta en `AppData\Local\Programs\Python\...` estás usando el Python global.
-
----
-
-### 4) Notas sobre `pip` y compatibilidad (Windows + Python 3.8)
-- Versiones recientes de `pip` pueden requerir Python >= 3.9. Si ves errores tipo `TypeError: 'ABCMeta' object is not subscriptable`, el `pip` del venv está roto.
-
-**Recuperación segura**:
-
-1. Elimina el venv roto (no afecta tu código):
-
-```cmd
-rmdir /s /q venv
-```
-
-2. Créalo de nuevo con Python 3.8:
-
-```cmd
-py -3.8 -m venv venv
-```
-
-3. Activa y verifica `pip`:
-
-```cmd
-venv\Scripts\activate
-pip --version
-```
-
-Deberías ver una versión `pip` en la serie `23.x`.
-
----
-
-### 5) Instalar dependencias del proyecto
-Con el entorno activo, instala las librerías requeridas:
-
-```bash
-pip install gym==0.21.0
-```
-
-(Opcional) Genera un `requirements.txt`:
-
-```bash
-pip freeze > requirements.txt
-```
-
-Para instalar desde `requirements.txt` en otra máquina:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### 6) Prueba rápida
-Crea `test.py` con:
-
-```python
-import sys
-print("Python ejecutándose desde:", sys.executable)
-print("Hola, RL Street Fighter!")
-```
-
-Ejecuta:
-
-```bash
-python test.py
-```
-
-Deberías ver la ruta del `venv` y el mensaje.
-
----
-
-## ✅ Resumen (Español)
-- Usa **Python 3.8.10**.
-- Crea y activa un `venv` antes de instalar paquetes.
-- Si `pip` falla por incompatibilidad, elimina y recrea el `venv`.
-- Configura VS Code para usar el intérprete dentro de `venv`.
-
----
-
-## 📁 Archivos sugeridos
-- `requirements.txt` — lista de dependencias.
-- `test.py` — script de verificación.
-- `src/` — código del agente y entornos.
-- `notebooks/` — experiments & visualizations.
-
----
-
-## 🛠 Troubleshooting / Soluciones rápidas
-- `ExecutionPolicy` en PowerShell: usa CMD o ajusta la política para el usuario.
-- `pip` roto en venv (error con `ABCMeta`): borra y recrea el venv con `py -3.8 -m venv venv`.
-- Asegúrate de seleccionar el intérprete correcto en VS Code.
-
----
-
-_— EN / ES_
-
