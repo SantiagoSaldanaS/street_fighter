@@ -31,6 +31,24 @@ Python 3.8.10
 ---
 
 ### 1) Create a virtual environment
+
+
+<details>
+  <summary>Instructions for Group A 🚀</summary>
+
+  - Step 1: Do this
+  - Step 2: Do that
+  - Step 3: Profit
+</details>
+
+<details>
+  <summary>Instructions for Group B 🔧</summary>
+
+  1. Run `make setup`
+  2. Edit `config.yaml`
+  3. Start the service with `npm run start`
+</details>
+
 From your project folder run one of the following:
 
 - With the **py launcher** (recommended on Windows):
