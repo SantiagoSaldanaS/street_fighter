@@ -179,17 +179,21 @@ Using a virtual environment is heavily recommended for this project.
 <br>
 
 ## Install project dependencies
+<br>
+
 With the virtual environment active, install the required packages:
 
 ```bash
 pip install gym==0.21.0
 ```
+<br>
 
 (Optional) create a `requirements.txt` once your dependencies are installed:
 
 ```bash
 pip freeze > requirements.txt
 ```
+<br>
 
 To install from `requirements.txt` on another machine:
 
