@@ -182,6 +182,8 @@ Using a virtual environment is heavily recommended for this project.
 
 <br>
 
+
+---
 ## Install project dependencies
 <br>
 
@@ -205,8 +207,11 @@ To install from `requirements.txt` on another machine:
 pip install -r requirements.txt
 ```
 
----
 
+<br>
+
+
+---
 ## Run test.py
 Load `test.py` from the repository with:
 
