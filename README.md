@@ -21,6 +21,7 @@ This repository contains code and experiments for Reinforcement Learning agents 
 python --version
 ```
 
+
 If it was installed correctly, it will return:
 ```
 Python 3.8.10
@@ -31,6 +32,8 @@ Python 3.8.10
 ## Virtual environment
 
 Using a virtual environment is heavily recommended for this project. 
+
+<br>
 
 <details>
   <summary>In Visual Studio Code</summary>
@@ -143,17 +146,22 @@ Using a virtual environment is heavily recommended for this project.
 <details>
   <summary>Regenerating VENV</summary>
   <br>
-  1. Remove the broken venv (this does not touch your code):
-
+  1. Remove the broken venv:
+  <br>
+  
   ```cmd
   rmdir /s /q venv
   ```
+
+  <br>
   
   2. Recreate it with Python 3.8:
+  <br>
   
   ```cmd
   py -3.8 -m venv venv
   ```
+  <br>
   
   3. Activate and verify `pip`:
   
