@@ -35,7 +35,7 @@ Python 3.8.10
 
 <details>
   <summary>In Visual Studio Code</summary>
-
+  <br>
   - Step 1: Do this
   - Step 2: Do that
   - Step 3: Profit
@@ -43,7 +43,7 @@ Python 3.8.10
 
 <details>
   <summary>In any other editor</summary>
-  
+  <br>
 
   From your project folder run one of the following:
 
