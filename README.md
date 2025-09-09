@@ -34,7 +34,7 @@ Python 3.8.10
 
 
 <details>
-  <summary>Instructions for Group A 🚀</summary>
+  <summary>In Visual Studio Code</summary>
 
   - Step 1: Do this
   - Step 2: Do that
@@ -42,14 +42,9 @@ Python 3.8.10
 </details>
 
 <details>
-  <summary>Instructions for Group B 🔧</summary>
+  <summary>In any other editor</summary>
 
-  1. Run `make setup`
-  2. Edit `config.yaml`
-  3. Start the service with `npm run start`
-</details>
-
-From your project folder run one of the following:
+  From your project folder run one of the following:
 
 - With the **py launcher** (recommended on Windows):
 
@@ -121,6 +116,9 @@ C:\Users\User\Desktop\Coding\street_fighter\venv\Scripts\python.exe
 If it shows a path under `AppData\Local\Programs\Python\...` you are using the global Python and not the venv.
 
 ---
+</details>
+
+
 
 ### 4) Common `pip` / compatibility notes (Windows + Python 3.8)
 - Newer releases of `pip` (25.x) may use typing features that are only compatible with Python >= 3.9. If `pip` inside the venv throws errors like `TypeError: 'ABCMeta' object is not subscriptable`, then the venv's pip is broken.
