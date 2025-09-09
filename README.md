@@ -43,79 +43,80 @@ Python 3.8.10
 
 <details>
   <summary>In any other editor</summary>
+  
 
   From your project folder run one of the following:
 
-- With the **py launcher** (recommended on Windows):
-
-```bash
-py -3.8 -m venv venv
-```
-
-- If `python3.8` is available in PATH:
-
-```bash
-python3.8 -m venv venv
-```
-
-This creates a folder named `venv` containing the isolated environment.
-
----
-
-### 2) Activate the virtual environment
-
-- **PowerShell**:
-
-```powershell
-.\venv\Scripts\Activate
-```
-
-⚠️ PowerShell may block script execution by default. If you see an error about `ExecutionPolicy`, either switch to **CMD** (below) or run PowerShell as administrator (this might be more flexible, but for simplicity use CMD) and set:
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-- **Command Prompt (CMD)**:
-
-```cmd
-venv\Scripts\activate
-```
-
-When active you should see the prompt prefixed with `(venv)`:
-```
-(venv) C:\Users\User\project>
-```
-
-To deactivate:
-
-```bash
-deactivate
-```
-
----
-
-### 3) Verify interpreter
-1. **Python: Select Interpreter**.
-2. Select the interpreter that points to:
-```
-...\venv\Scripts\python.exe
-```
-
-Quick script to confirm the running interpreter:
-
-```python
-import sys
-print("Python running from:", sys.executable)
-```
-
-Expected when correct:
-```
-C:\Users\User\Desktop\Coding\street_fighter\venv\Scripts\python.exe
-```
-If it shows a path under `AppData\Local\Programs\Python\...` you are using the global Python and not the venv.
-
----
+  - With the **py launcher** (recommended on Windows):
+  
+  ```bash
+  py -3.8 -m venv venv
+  ```
+  
+  - If `python3.8` is available in PATH:
+  
+  ```bash
+  python3.8 -m venv venv
+  ```
+  
+  This creates a folder named `venv` containing the isolated environment.
+  
+  ---
+  
+  ## Activate the virtual environment
+  
+  - **PowerShell**:
+  
+  ```powershell
+  .\venv\Scripts\Activate
+  ```
+  
+  ⚠️ PowerShell may block script execution by default. If you see an error about `ExecutionPolicy`, either switch to **CMD** (below) or run PowerShell as administrator (this might be more flexible, but for simplicity use CMD) and set:
+  
+  ```powershell
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  ```
+  
+  - **Command Prompt (CMD)**:
+  
+  ```cmd
+  venv\Scripts\activate
+  ```
+  
+  When active you should see the prompt prefixed with `(venv)`:
+  ```
+  (venv) C:\Users\User\project>
+  ```
+  
+  To deactivate:
+  
+  ```bash
+  deactivate
+  ```
+  
+  ---
+  
+  ## Verify interpreter
+  1. **Python: Select Interpreter**.
+  2. Select the interpreter that points to:
+  ```
+  ...\venv\Scripts\python.exe
+  ```
+  
+  Quick script to confirm the running interpreter:
+  
+  ```python
+  import sys
+  print("Python running from:", sys.executable)
+  ```
+  
+  Expected when correct:
+  ```
+  C:\Users\User\Desktop\Coding\street_fighter\venv\Scripts\python.exe
+  ```
+  If it shows a path under `AppData\Local\Programs\Python\...` you are using the global Python and not the venv.
+  
+  ---
 </details>
 
 
