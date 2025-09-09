@@ -38,7 +38,9 @@ Using a virtual environment is heavily recommended for this project.
   <summary>In Visual Studio Code</summary>
   <br>
   - Step 1: Do this
+  
   - Step 2: Do that
+  <br>
   - Step 3: Profit
 </details>
 
