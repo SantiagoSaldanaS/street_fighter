@@ -56,7 +56,7 @@ Using a virtual environment is heavily recommended for this project.
 
   ```bash
   python3.8 -m venv venv
-
+  ```
   
   ##### This creates a folder named `venv` containing the isolated environment.
 
