@@ -59,9 +59,7 @@ Using a virtual environment is heavily recommended for this project.
   ```bash
   python3.8 -m venv venv
   ```
-  <br>
   This creates a folder named `venv` containing the isolated environment.
-  <br>
   ---
   <br>
   #### Activate the virtual environment
@@ -71,20 +69,15 @@ Using a virtual environment is heavily recommended for this project.
   ```powershell
   .\venv\Scripts\Activate
   ```
-  <br>
   PowerShell may block script execution by default. If you see an error about `ExecutionPolicy`, either switch to **CMD** (below) or run PowerShell as administrator (this might be more flexible, but for simplicity use CMD) and set:
-  <br>
   ```powershell
   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
   ```
-  <br>
   - **Command Prompt (CMD)**:
-  <br>
   ```cmd
   venv\Scripts\activate
   ```
-  <br>
-  When active you should see the prompt prefixed with `(venv)`:
+  When active one should see the prompt prefixed with `(venv)`:
   ```
   (venv) C:\Users\User\project>
   ```
@@ -96,7 +89,6 @@ Using a virtual environment is heavily recommended for this project.
   ```
   <br>
   ---
-  <br>
   #### Verify interpreter
   1. **Python: Select Interpreter**.
   2. Select the interpreter that points to:
