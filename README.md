@@ -189,7 +189,7 @@ Using a virtual environment is heavily recommended for this project.
 
 
 ---
-## Install project dependencies
+## Dependencies
 <br>
 
 With the virtual environment active, install the required packages:
@@ -217,7 +217,7 @@ pip install -r requirements.txt
 
 
 ---
-## Run test.py
+## Testing
 Load `test.py` from the repository with:
 
 Run:
