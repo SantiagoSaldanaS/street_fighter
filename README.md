@@ -45,27 +45,25 @@ Using a virtual environment is heavily recommended for this project.
 
 <details>
   <summary>In any other editor</summary>
-  <br>
   From your project folder run one of the following:
-  <br>
+  
   - With the **py launcher** (recommended on Windows):
-  <br>
+  - 
   ```bash
   py -3.8 -m venv venv
   ```
-  <br>
   - If `python3.8` is available in PATH:
-  <br>
+
   ```bash
   python3.8 -m venv venv
   ```
   This creates a folder named `venv` containing the isolated environment.
   ---
-  <br>
+
   #### Activate the virtual environment
-  <br>
-  - **PowerShell**:
-  <br>
+
+  **PowerShell**:
+
   ```powershell
   .\venv\Scripts\Activate
   ```
@@ -81,13 +79,13 @@ Using a virtual environment is heavily recommended for this project.
   ```
   (venv) C:\Users\User\project>
   ```
-  <br>
+
   To deactivate:
-  <br>
+
   ```bash
   deactivate
   ```
-  <br>
+
   ---
   #### Verify interpreter
   1. **Python: Select Interpreter**.
@@ -95,20 +93,19 @@ Using a virtual environment is heavily recommended for this project.
   ```
   ...\venv\Scripts\python.exe
   ```
-  <br>
+
   Quick script to confirm the running interpreter:
-  <br>
+
   ```python
   import sys
   print("Python running from:", sys.executable)
   ```
-  <br>
+
   Expected when correct:
   ```
   C:\Users\User\Desktop\Coding\street_fighter\venv\Scripts\python.exe
   ```
   If it shows a path under `AppData\Local\Programs\Python\...` you are using the global Python and not the venv.
-  <br>
   ---
 </details>
 
