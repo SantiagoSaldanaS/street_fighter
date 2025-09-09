@@ -26,7 +26,7 @@ If it was installed correctly, it will return:
 ```
 Python 3.8.10
 ```
-
+<br>
 ---
 
 ## Virtual environment
