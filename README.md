@@ -12,6 +12,8 @@ This repository contains code and experiments for Reinforcement Learning agents 
 
 ---
 
+<br>
+
 ## Prerequisites
 - Install **Python 3.8.10**: https://www.python.org/downloads/release/python-3810/
 - IMPORTANT: Select custom installation and add python to the PATH.
@@ -27,6 +29,8 @@ Python 3.8.10
 ```
 
 ---
+
+<br>
 
 ## Virtual environment
 
@@ -134,12 +138,12 @@ Using a virtual environment is heavily recommended for this project.
   ---
 </details>
 
-
-
+<br>
 
 ### Common `pip` / compatibility notes (Windows + Python 3.8)
 - Newer releases of `pip` (25.x) may use typing features that are only compatible with Python >= 3.9. If `pip` inside the venv throws errors like `TypeError: 'ABCMeta' object is not subscriptable`, then the venv's pip is broken.
 
+<br>
 <details>
   <summary>Regenerating VENV</summary>
   <br>
@@ -168,7 +172,7 @@ Using a virtual environment is heavily recommended for this project.
 </details>
 
 
-
+<br>
 
 ## Install project dependencies
 With the virtual environment active, install the required packages:
@@ -190,6 +194,7 @@ pip install -r requirements.txt
 ```
 
 ---
+<br>
 
 ## Run test.py
 Load `test.py` from the repository with:
