@@ -2,13 +2,13 @@
 
 [![Python](https://img.shields.io/badge/python-3.8.10-blue.svg)](https://www.python.org/)
 
-_A bilingual project setup guide (English / Español)_
+_Windows Setup guide (English / Español)_
 
 ---
 
 ## Project overview
 
-This repository contains code and experiments for Reinforcement Learning agents applied to a Street Fighter environment. The project is designed to run with **Python 3.8.10** inside an isolated virtual environment to guarantee compatibility and reproducibility.
+This repository contains code and experiments for Reinforcement Learning agents applied to a Street Fighter environment. The project is designed to run with **Python 3.8.10** inside an isolated virtual environment to guarantee compatibility.
 
 ---
 
@@ -16,13 +16,14 @@ This repository contains code and experiments for Reinforcement Learning agents 
 
 ### Prerequisites
 - Install **Python 3.8.10**: https://www.python.org/downloads/release/python-3810/
-- Verify installation:
+- IMPORTANT: Select custom installation and add python to the PATH.
+- Verify installation with powershell:
 
 ```bash
 python --version
 ```
 
-Expected output:
+If it was installed correctly, it will return:
 ```
 Python 3.8.10
 ```
