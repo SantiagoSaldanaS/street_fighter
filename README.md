@@ -32,6 +32,9 @@ Python 3.8.10
 
 ### 1) Create a virtual environment
 
+Using a virtual environment is heavily recommended for this project. 
+
+The following is a guide to do so.
 
 <details>
   <summary>In Visual Studio Code</summary>
