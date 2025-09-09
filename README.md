@@ -20,7 +20,7 @@ This repository contains code and experiments for Reinforcement Learning agents 
 ```bash
 python --version
 ```
-
+<br>
 
 If it was installed correctly, it will return:
 ```
