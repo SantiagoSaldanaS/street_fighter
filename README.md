@@ -38,7 +38,6 @@ Using a virtual environment is heavily recommended for this project.
   <summary>In Visual Studio Code</summary>
   <br>
   - Step 1: Do this
-  
   - Step 2: Do that
   <br>
   - Step 3: Profit
@@ -47,78 +46,77 @@ Using a virtual environment is heavily recommended for this project.
 <details>
   <summary>In any other editor</summary>
   <br>
-
   From your project folder run one of the following:
-
+  <br>
   - With the **py launcher** (recommended on Windows):
-  
+  <br>
   ```bash
   py -3.8 -m venv venv
   ```
-  
+  <br>
   - If `python3.8` is available in PATH:
-  
+  <br>
   ```bash
   python3.8 -m venv venv
   ```
-  
+  <br>
   This creates a folder named `venv` containing the isolated environment.
-  
+  <br>
   ---
-  
+  <br>
   #### Activate the virtual environment
-  
+  <br>
   - **PowerShell**:
-  
+  <br>
   ```powershell
   .\venv\Scripts\Activate
   ```
-  
-  ⚠️ PowerShell may block script execution by default. If you see an error about `ExecutionPolicy`, either switch to **CMD** (below) or run PowerShell as administrator (this might be more flexible, but for simplicity use CMD) and set:
-  
+  <br>
+  PowerShell may block script execution by default. If you see an error about `ExecutionPolicy`, either switch to **CMD** (below) or run PowerShell as administrator (this might be more flexible, but for simplicity use CMD) and set:
+  <br>
   ```powershell
   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
   ```
-  
+  <br>
   - **Command Prompt (CMD)**:
-  
+  <br>
   ```cmd
   venv\Scripts\activate
   ```
-  
+  <br>
   When active you should see the prompt prefixed with `(venv)`:
   ```
   (venv) C:\Users\User\project>
   ```
-  
+  <br>
   To deactivate:
-  
+  <br>
   ```bash
   deactivate
   ```
-  
+  <br>
   ---
-  
+  <br>
   #### Verify interpreter
   1. **Python: Select Interpreter**.
   2. Select the interpreter that points to:
   ```
   ...\venv\Scripts\python.exe
   ```
-  
+  <br>
   Quick script to confirm the running interpreter:
-  
+  <br>
   ```python
   import sys
   print("Python running from:", sys.executable)
   ```
-  
+  <br>
   Expected when correct:
   ```
   C:\Users\User\Desktop\Coding\street_fighter\venv\Scripts\python.exe
   ```
   If it shows a path under `AppData\Local\Programs\Python\...` you are using the global Python and not the venv.
-  
+  <br>
   ---
 </details>
 
