@@ -12,8 +12,6 @@ This repository contains code and experiments for Reinforcement Learning agents 
 
 ---
 
-<br>
-
 ## Prerequisites
 - Install **Python 3.8.10**: https://www.python.org/downloads/release/python-3810/
 - IMPORTANT: Select custom installation and add python to the PATH.
@@ -29,8 +27,6 @@ Python 3.8.10
 ```
 
 ---
-
-<br>
 
 ## Virtual environment
 
