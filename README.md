@@ -146,7 +146,9 @@ Using a virtual environment is heavily recommended for this project.
 <details>
   <summary>Regenerating VENV</summary>
   <br>
+  
   1. Remove the broken venv:
+
   <br>
   
   ```cmd
