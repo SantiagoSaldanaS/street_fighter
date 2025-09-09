@@ -30,7 +30,7 @@ Python 3.8.10
 
 ---
 
-### 1) Create a virtual environment
+### Create a virtual environment
 
 Using a virtual environment is heavily recommended for this project. 
 
@@ -124,7 +124,7 @@ The following is a guide to do so.
 
 
 
-### 4) Common `pip` / compatibility notes (Windows + Python 3.8)
+### Common `pip` / compatibility notes (Windows + Python 3.8)
 - Newer releases of `pip` (25.x) may use typing features that are only compatible with Python >= 3.9. If `pip` inside the venv throws errors like `TypeError: 'ABCMeta' object is not subscriptable`, then the venv's pip is broken.
 
 **Safe recovery**:
@@ -152,7 +152,7 @@ You should see a `pip` version in the `23.x` series.
 
 ---
 
-### 5) Install project dependencies
+### Install project dependencies
 With the virtual environment active, install the required packages:
 
 ```bash
@@ -173,14 +173,8 @@ pip install -r requirements.txt
 
 ---
 
-### 6) Run a quick check
-Create `test.py` with:
-
-```python
-import sys
-print("Python running from:", sys.executable)
-print("Hello, RL Street Fighter!")
-```
+### 6) Run a test.py
+Load `test.py` from the repository with:
 
 Run:
 
@@ -188,7 +182,6 @@ Run:
 python test.py
 ```
 
-You should see the venv path in the output and the greeting line.
 
 
 ---
