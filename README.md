@@ -34,8 +34,6 @@ Python 3.8.10
 
 Using a virtual environment is heavily recommended for this project. 
 
-The following is a guide to do so.
-
 <details>
   <summary>In Visual Studio Code</summary>
   <br>
@@ -127,30 +125,35 @@ The following is a guide to do so.
 ### Common `pip` / compatibility notes (Windows + Python 3.8)
 - Newer releases of `pip` (25.x) may use typing features that are only compatible with Python >= 3.9. If `pip` inside the venv throws errors like `TypeError: 'ABCMeta' object is not subscriptable`, then the venv's pip is broken.
 
-**Safe recovery**:
+<details>
+  <summary>Regenerating VENV</summary>
+  <br>
+  1. Remove the broken venv (this does not touch your code):
 
-1. Remove the broken venv (this does not touch your code):
+  ```cmd
+  rmdir /s /q venv
+  ```
+  
+  2. Recreate it with Python 3.8:
+  
+  ```cmd
+  py -3.8 -m venv venv
+  ```
+  
+  3. Activate and verify `pip`:
+  
+  ```cmd
+  venv\Scripts\activate
+  pip --version
+  ```
+  
+  You should see a `pip` version in the `23.x` series.
+  
+  ---
+</details>
 
-```cmd
-rmdir /s /q venv
-```
 
-2. Recreate it with Python 3.8:
 
-```cmd
-py -3.8 -m venv venv
-```
-
-3. Activate and verify `pip`:
-
-```cmd
-venv\Scripts\activate
-pip --version
-```
-
-You should see a `pip` version in the `23.x` series.
-
----
 
 ### Install project dependencies
 With the virtual environment active, install the required packages:
