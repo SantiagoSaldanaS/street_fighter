@@ -48,7 +48,7 @@ Using a virtual environment is heavily recommended for this project.
   From your project folder run one of the following:
   
   - With the **py launcher** (recommended on Windows):
-  - 
+
   ```bash
   py -3.8 -m venv venv
   ```
@@ -56,9 +56,9 @@ Using a virtual environment is heavily recommended for this project.
 
   ```bash
   python3.8 -m venv venv
-  ```
-  This creates a folder named `venv` containing the isolated environment.
-  ---
+
+  
+  ##### This creates a folder named `venv` containing the isolated environment.
 
   #### Activate the virtual environment
 
