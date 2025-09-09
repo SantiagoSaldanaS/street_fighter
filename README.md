@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.8.10-blue.svg)](https://www.python.org/)
 
-_Windows Setup guide (English / Español)_
+_Windows Setup guide (English)_
 
 ---
 
