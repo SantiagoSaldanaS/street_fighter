@@ -2,7 +2,7 @@
 
 # Cosas por cambiar del readme
 - instalar jupyther
-- 
+- en \roms ejecutar:   python -m retro.import
 
 
 [![Python](https://img.shields.io/badge/python-3.8.10-blue.svg)](https://www.python.org/)
