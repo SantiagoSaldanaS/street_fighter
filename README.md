@@ -1,5 +1,10 @@
 # Reinforcement Learning – Street Fighter
 
+# Cosas por cambiar del readme
+- instalar jupyther
+- 
+
+
 [![Python](https://img.shields.io/badge/python-3.8.10-blue.svg)](https://www.python.org/)
 
 _Windows Setup guide (English)_
