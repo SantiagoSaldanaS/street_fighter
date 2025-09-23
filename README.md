@@ -196,7 +196,10 @@ With the virtual environment active, install the required packages:
 
 ```bash
 pip install gym==0.21.0
+pip install retro==0.8.0
 ```
+
+
 <br>
 
 (Optional) create a `requirements.txt` once your dependencies are installed:
