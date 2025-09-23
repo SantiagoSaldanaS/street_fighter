@@ -3,6 +3,8 @@
 # Cosas por cambiar del readme
 - instalar jupyther
 - en \roms ejecutar:   python -m retro.import
+- ejecutar test.py en el venv:  python test.py
+- 
 
 
 [![Python](https://img.shields.io/badge/python-3.8.10-blue.svg)](https://www.python.org/)
