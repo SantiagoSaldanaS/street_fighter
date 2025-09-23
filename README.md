@@ -200,7 +200,7 @@ Using a virtual environment is heavily recommended for this project.
 With the virtual environment active, install the required packages:
 
 ```bash
-pip install gym==0.21.0 retro==0.8.0
+pip install gym==0.21.0 gym-retro==0.8.0
 ```
 
 
