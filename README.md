@@ -61,25 +61,38 @@ Python 3.8.10
 
 ## Virtual environment (venv)
 
-Using a virtual environment is heavily recommended for this project. 
+> Using a virtual environment is heavily recommended for this project. 
 
 <br>
 
-From your project folder run one of the following:
+From your project folder run:
 
-- With the **py launcher** (recommended on Windows):
+<details>
+  <summary>
+    If python is not in PATH:
+  </summary>
 
-```bash
-py -3.8 -m venv venv
-```
+  <br>
+  
+  ```bash
+  py -3.8 -m venv venv
+  ```
 
-- If `python3.8` is available in PATH:
+</details>
 
-```bash
-python3.8 -m venv venv
-```
+<details>
+  <summary>
+    If python is available in PATH:
+  </summary>
+  <br>
+  
+  ```bash
+  python3.8 -m venv venv
+  ```
 
-#### This creates a folder named `venv` containing the isolated environment.
+</details>
+
+> This should create a folder named `venv` containing the isolated environment.
 
 <br>
 
