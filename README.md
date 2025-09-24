@@ -63,7 +63,8 @@ Python 3.8.10
 
 > Using a virtual environment is heavily recommended for this project. 
 
-<br>
+
+### 1. Create the venv
 
 From your project folder run:
 
@@ -96,7 +97,7 @@ From your project folder run:
 
 <br>
 
-### Activate the virtual environment
+### 2. Activate the virtual environment
 
 **PowerShell**:
 
@@ -104,9 +105,10 @@ From your project folder run:
 .\venv\Scripts\Activate
 ```
 
-PowerShell may block script execution by default.  
-If you see an error about `ExecutionPolicy`, either switch to **CMD** (below)  
-or run PowerShell as administrator (this might be more flexible, but for simplicity use CMD) and set:
+**Warning**
+> PowerShell may block script execution by default.  
+> If you see an error about `ExecutionPolicy`, either switch to **CMD** (below)  
+> or run PowerShell as administrator (this might be more flexible, but for simplicity use CMD) and set:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -114,13 +116,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 <br>
 
-- **Command Prompt (CMD)**:
+**Command Prompt (CMD)**:
 
 ```cmd
 venv\Scripts\activate
 ```
 
-When active one should see the prompt prefixed with `(venv)`:
+When active, one should see the prompt prefixed with `(venv)`:
 
 ```
 (venv) C:\Users\User\project>
@@ -128,7 +130,7 @@ When active one should see the prompt prefixed with `(venv)`:
 
 <br>
 
-To deactivate:
+To **deactivate** the venv simply type:
 
 ```bash
 deactivate
