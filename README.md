@@ -138,7 +138,7 @@ deactivate
 
 ---
 
-### Verify interpreter
+### 3. Verify interpreter
 
 1. **Python: Select Interpreter**.  
 2. Select the interpreter that points to:
