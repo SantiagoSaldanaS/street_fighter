@@ -1,10 +1,22 @@
 # Reinforcement Learning – Street Fighter
 
-# Cosas por cambiar del readme
-- instalar jupyther
-- en \roms ejecutar:   python -m retro.import
-- ejecutar test.py en el venv:  python test.py
-- 
+<details>
+  <summary>Cosas por cambiar del readme</summary>
+    - instalar jupyther
+    - en \roms ejecutar:   python -m retro.import
+    - ejecutar test.py en el venv:  python test.py
+    <br>
+    Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy
+    H<sub>2</sub>O and x<sup>2</sup>
+    <details>
+      <summary>Click to expand</summary>
+        This content is hidden by default!
+        ```python
+        print("Hidden code example")
+        ```
+    </details>
+</details>
+
 
 
 [![Python](https://img.shields.io/badge/python-3.8.10-blue.svg)](https://www.python.org/)
@@ -26,8 +38,10 @@ This repository contains code and experiments for Reinforcement Learning agents 
 
 ## Prerequisites
 - Install **Python 3.8.10**: https://www.python.org/downloads/release/python-3810/
-- IMPORTANT: Select custom installation and add python to the PATH.
-- Verify installation with powershell:
+
+> **IMPORTANT**: Select custom installation and add python to the **PATH**.
+  
+- Verify installation in the terminal:
 
 ```bash
 python --version
