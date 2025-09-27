@@ -36,7 +36,11 @@ This repository contains code and experiments for Reinforcement Learning agents 
 
 ---
 
+## Video Tutorial
+
 [![Ver en YouTube](https://img.youtube.com/vi/ubqhopAanQM/maxresdefault.jpg)](https://youtu.be/ubqhopAanQM)
+
+---
 
 ## Prerequisites
 - Install [**Python 3.8.10**](https://www.python.org/downloads/release/python-3810/)
