@@ -1,7 +1,5 @@
-cloudpickle==3.1.1
 gym==0.21.0
 gym-retro==0.8.0
-numpy==1.24.4
-pyglet==1.5.31
-opencv-python==4.7.0.72
-matplotlib==3.7.3
+matplotlib
+numpy  
+opencv-python
