@@ -3,7 +3,7 @@
 <details>
   <summary>Cosas por cambiar del readme</summary>
     - instalar jupyther
-    - en \roms ejecutar:   python -m retro.import
+    - en \roms ejecutar:   python -m retro.import .
     - ejecutar test.py en el venv:  python test.py
     <br>
     Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy
